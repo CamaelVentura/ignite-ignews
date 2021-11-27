@@ -1,6 +1,11 @@
+import styles from '../styles/home.module.scss';
+
 export default function Home() {
   
   return (
-    <div>OPA</div>
+    <h1 className={styles.title}>
+      Opa,
+      <span> beleza?</span>
+    </h1>
   )
 }
